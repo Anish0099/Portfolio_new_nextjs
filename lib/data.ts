@@ -59,6 +59,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "AiNotion",
+    link:"https://github.com/Anish0099/ainotion",
     description:
       "Basically a Notion clone. I have added some new Ai features like autocomplete and image generation.",
     tags: ["React", "Next.js", "NeonDB", "Tailwind", "Drizzle"],
@@ -66,6 +67,7 @@ export const projectsData = [
   },
   {
     title: "BlogApp",
+    link:"https://github.com/Anish0099/fullstack-blog-website",
     description:
       "A blog app with user authentication. This is a fullstack project with better user experience and fast rendering.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "NeonDB"],
@@ -73,6 +75,7 @@ export const projectsData = [
   },
   {
     title: "Video Gallery",
+    link:"https://github.com/Anish0099/pair-coding",
     description:
       "A public web app for posting the personal videos. This is a fullstack project with better user experience and fast rendering.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind"],
