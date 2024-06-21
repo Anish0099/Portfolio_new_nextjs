@@ -7,6 +7,8 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import aiNotion from "@/public/ai_notion.png";
 import blog_app from "@/public/blog_app.png";
+import ai_mock from "@/public/aimock.png";
+import pair_prog from "@/public/pair_prog.png";
 import videoGallery from "@/public/video_gallery_pr.png";
 
 export const links = [
@@ -58,11 +60,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "AiMockInterview",
+    link:"https://github.com/Anish0099/AiInterviewApp",
+    description:
+      "A SaaS platform offering AI-driven interview simulations with camera , mic and personalized feedback.",
+    tags: ["React", "Next.js","Stripe","Gemini Api", "Postgres", "Tailwind", "Drizzle"],
+    imageUrl: ai_mock,
+  },
+  {
+    title: "Pair Programming",
+    link:"https://github.com/Anish0099/Pair_prgramming_docker",
+    description:
+      "A platform where the programmers can code together in real time while working on the same project without any disturbance",
+    tags: ["React", "Next.js","stream.io","docker", "Tailwind", "Drizzle"],
+    imageUrl: pair_prog,
+  },
+  {
     title: "AiNotion",
     link:"https://github.com/Anish0099/ainotion",
     description:
       "Basically a Notion clone. I have added some new Ai features like autocomplete and image generation.",
-    tags: ["React", "Next.js", "NeonDB", "Tailwind", "Drizzle"],
+    tags: ["React", "Next.js","OPENAI api", "NeonDB", "Tailwind", "Drizzle"],
     imageUrl: aiNotion,
   },
   {
@@ -94,6 +112,9 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
+  "Python",
+  "Flask",
+  "Drizzle",
   "MongoDB",
   "Redux",
   "Express",
